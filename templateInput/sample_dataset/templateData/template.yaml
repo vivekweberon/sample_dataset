@@ -1,0 +1,1022 @@
+---
+tabloidParent:
+  type: div
+  className: tabloidParent
+  css:
+    display: flex
+    flexDirection: row
+    flexWrap: wrap
+  children:
+    page1:
+      type: div
+      className: page
+      css:
+        position: relative
+        left: 0rem
+        top: 0rem
+        minHeight: 11in
+        height: auto
+        margin: 0
+        padding: 0
+        display: flex
+        flexDirection: column
+        justifyContent: space-between
+      children:
+        p1header:
+          type: div
+          css:
+            display: flex
+            flexDirection: column
+            alignItems: center
+            justifyContent: center
+          children:
+            p1himage3:
+              type: img
+              css:            
+                backgroundRepeat: no-repeat
+                backgroundSize: cover
+                backgroundPosition: center center
+                zIndex: 2
+                width: 100%
+                height: 6.25rem
+                margin: 0.5rem
+            p1hsec1line3:
+              type: text
+              css:
+                color: '#cd0f13'
+                textAlign: center
+                fontFamily: 'ebrimabd'
+                fontSize: 1rem
+                zIndex: 6
+            p1himage2:
+              type: img
+              css:            
+                backgroundRepeat: no-repeat
+                backgroundSize: cover
+                backgroundPosition: center center
+                zIndex: 2
+                width: 100%
+                height: 12.3rem
+                # margin: 0.5rem       
+        p1body:
+          type: div
+          css:
+            display: flex
+            flexDirection: row
+            flexWrap: wrap
+            alignItems: center
+            justifyContent: space-between
+            padding: 0.5rem
+            marginLeft: 20px
+            marginRight: 20px
+            gap: 1rem        
+          children:
+            page1BodyLeft:
+              type: div
+              css:
+                flex: 1 1 14rem
+                display: flex
+                flexDirection: column
+                alignItems: center
+                gap: 0.25rem
+              children:
+                p1blqrCode:
+                  type: qrcode
+                  subText: |
+                    <div style="background-color: rgb(6, 61, 113);font-size: larger; color:white;border-radius: 0 0 0.2rem 0.2rem;">
+                      Scan for more!
+                    </div>
+                  css:            
+                    minWidth: 1.4in
+                    maxWidth: 13rem
+                    left: 0.5in
+                    borderRadius: 0.3rem
+                    border: '0.1rem solid rgb(6, 61, 113)'
+                    textAlign: center
+                    padding: 0.1rem
+                    marginBottom: 1rem
+                p1blAccessMyMessage:
+                  type: text
+                p1blSec3Header:
+                  type: text          
+                  css:           
+                    zIndex: 3            
+                    lineHeight: '1'
+                    fontSize: 21px
+                    fontFamily: times-new-roman-bold
+                    color: '#cd0f13'
+                    fontWeight: 500
+                    textAlign: center
+                    alignSelf: flex-start
+                p1blSec3Text:
+                  type: text
+                  css:
+                    zIndex: 3
+                    textAlign: justify
+                    lineHeight: '1.2'
+                    fontSize: 15px
+                    fontFamily: times-new-roman-italic
+                    color: '#181715'
+                    paddingTop: 0.5rem
+                    paddingBottom: 0.5rem
+                p1blimage5:
+                  type: img
+                  css:
+                    width: 8.5rem
+                    height: 45px
+                    backgroundRepeat: no-repeat
+                    backgroundSize: cover
+                    zIndex: 2 
+                    flex: none
+                    marginRight: 0.2rem
+                    marginTop: -0.5rem  
+                p1blimage1:
+                  type: img
+                  css:            
+                    width: 1.8in
+                    height: 1.8in
+                    backgroundRepeat: no-repeat
+                    backgroundSize: cover
+                    zIndex: 2
+                    borderRadius: 0.5rem
+                p1blSec4Header: 
+                  type: text
+                  css:
+                    zIndex: 3
+                    textAlign: center
+                    fontWeight: '600'
+                    lineHeight: '1'
+                    fontSize: 18px
+                    fontFamily: times-new-roman-bold
+                    color: '#cd0f13'
+                p1blSec4Text: 
+                  type: text
+                  css:
+                    zIndex: 3
+                    textAlign: center
+                    fontSize: 11px
+                    fontFamily: times-new-roman
+                    color: '#181715'
+                    marginTop: -0.3rem
+
+            page1BodyRight: 
+              type: div
+              css:
+                flex: 1 1 32rem
+                display: flex
+                flexDirection: column
+                justifyContent: space-between
+                alignItems: left 
+              children: 
+                # p1brHeader:
+                #   type: text
+                #   css:
+                #     textAlign: center
+                #     fontSize: 2.87rem
+                #     fontFamily: calibri
+                #     color: '#063d71'
+                
+                # p1brTextBold:
+                #   type: text
+                #   css:
+                #     zIndex: 3
+                #     textAlign: justify
+                #     lineHeight: "1.3"
+                #     fontSize: 1.2rem
+                #     fontFamily: calibribold
+                #     color: black
+                #     marginTop: 1rem
+                #     marginBottom: 1rem
+
+
+                p1brimage4:
+                  type: img
+                  className: p1brimage4
+                  css:
+                    width: 100%
+                    height: 10.8rem
+                    backgroundRepeat: no-repeat
+                    backgroundSize: cover
+                    zIndex: 2
+                    backgroundPosition: "center center"
+                p1brleftSec1Text:
+                  type: text
+                  css:
+                    zIndex: 3
+                    textAlign: justify
+                    lineHeight: "1.5"
+                    fontSize: 0.875rem
+                    fontFamily: calibri
+                    color: black
+                    marginBottom: 1rem
+                    marginTop: 0.4rem
+                p1brrighttext:
+                  type: text
+                  css:
+                    zIndex: 3
+                    textAlign: center
+                    lineHeight: '1'
+                    fontSize: 1.75rem
+                    fontFamily: arialBoldItalic
+                    color: black
+                    background: none
+                    transformOrigin: 9.8 3.5
+                    transform: rotate(-2deg)
+        p1footer:
+          type: div
+          css:
+            display: flex
+            flexDirection: row
+            alignItems: center
+            justifyContent: center
+            gap: 0.2rem
+            backgroundColor: '#063d71'
+          children:    
+            footerText:
+              type: text
+              css:
+                zIndex: 3
+                alignItems: center
+                justifyContent: center
+                display: flex
+                padding: 0.5rem
+                fontSize: 1.25rem
+                fontFamily: times-new-roman
+                color: '#eff0f2'
+                float: none    
+                textAlign: center        
+
+    page2:
+      type: div
+      className: page
+      css:
+        position: relative
+        left: 0rem
+        top: 0rem
+        minHeight: 11in
+        height: auto
+        margin: 0
+        padding: 0
+        display: flex
+        flexDirection: column
+        justifyContent: space-between
+      children: 
+        backgroundTop:
+          type: text
+          css:
+            marginTop: 0px
+            marginBottom: 1px
+            color: '#cd0f13'
+            lineHeight: '1.3'
+            fontSize: 1.75rem
+            fontFamily: arialBold
+            display: flex
+            alignItems: center
+            justifyContent: center
+            backgroundColor: '#ffe48d'
+            textAlign: center
+            zindex: 3
+        page2Body:
+          type: div
+          css:
+            height: auto
+            zIndex: 3      
+            display: flex
+            flexDirection: row
+            justifyContent: space-around
+            alignItems: flex-start
+            padding: 0.5rem
+            gap: 1rem
+            flexWrap: wrap
+          children:
+            page2BodyLeft:
+              type: div
+              css:
+                flex: 1 1 3.5in
+                display: flex
+                justifyContent: space-between
+                flexDirection: column
+                alignItems: center
+              children:
+                p2blAdjText1:
+                  type: text
+                  css:
+                    textAlign: Justify
+                    lineHeight: "1.2"
+                    fontSize: 17.5px
+                    fontFamily: calibri
+                    color: '#181715'
+                leftSec4Text:
+                  type: text
+                  css:
+                    height: auto
+                    backgroundColor: RoyalBlue 
+                    textAlign: center
+                    padding: 1.3rem
+                    lineHeight: '1.3'
+                    fontSize: 1.1rem
+                    fontFamily: calibri
+                    color: '#ffffff'    
+                    borderRadius: 0.3rem
+                rectangle2:
+                  type: text
+                  css:
+                    height: 4.8rem
+                    width: 4.2rem
+                    backgroundColor: royalblue
+                triangledown:
+                  type: text
+                  css:
+                    borderWidth: 4.68rem 4.68rem 0rem 
+                    borderStyle: solid 
+                    borderColor: royalblue transparent transparent 
+                    backgroundColor: transparent
+                leftSec3Text:
+                  type: text
+                  css:
+                    zIndex: 3
+                    textAlign: center
+                    lineHeight: '1.1'
+                    width: 16.2rem
+                    height: 11.4rem
+                    fontSize: 1.1rem
+                    fontFamily: times-new-roman-bold
+                    color: '#085296'
+                    border: '0.125rem solid black'
+                    borderRadius: 1.2rem
+                    padding: 1rem
+                    marginTop: 0rem  
+                # p2bGoServeBigLogo:
+                #   type: img
+                #   css:
+                #     backgroundRepeat: no-repeat
+                #     backgroundSize: cover
+                #     backgroundPosition: center center
+                #     zIndex: 2
+                #     width: 8rem
+                #     height: 8rem
+                #     margin-top: 0.5rem
+
+                p2blCaption:
+                  type: div
+                  css:
+                    zIndex: 3
+                    display: flex
+                    flexDirection: row
+                    flexWrap: wrap
+                    justifyContent: center
+                    paddingTop: 0.5rem
+                  children:
+                    p2blCaption1:
+                      type: text
+                      css:
+                        fontWeight: bolder
+                        fontSize: 110%
+                    p2blCaption2:
+                      type: div
+                      css:
+                        width: 100%
+                        display: flex
+                        flexDirection: row
+                        flexWrap: wrap
+                        justifyContent: center
+                        alignItems: center
+                        gap: 0.5rem
+                      children:
+                        p2blBigCaption:
+                          type: text
+                          css:
+                            
+                            fontWeight: bolder
+                            fontSize: 350%
+                        p2blHeart:
+                          type: text
+                          css:
+                            fontWeight: bolder
+                            fontSize: 4rem
+                            color: red
+                    p2blCaption3:
+                      type: text
+                      css:
+                        fontWeight: bolder
+                        fontSize: 110%
+                        textAlign: center
+                    
+                #######
+
+            page2BodyRight:      
+              type: div
+              css:
+                flex: 1 1 4.5in
+                display: flex
+                flexDirection: column 
+                justifyContent: space-between
+                alignItems: center
+                gap: 1rem
+              children:          
+                rightSec:
+                  type: div
+                  css:
+                    zIndex: 3
+                    marginTop: 0.063rem
+                    marginBottom: 0.063rem
+                    marginLeft: 0.063rem
+                    marginRight: 0.063rem
+                  children:               
+                    p2brText1:
+                      type: text
+                      css:
+                        zIndex: 3
+                        textAlign: Justify
+                        lineHeight: "1.2"
+                        fontSize: 17.5px
+                        fontFamily: calibri
+                        color: '#181715'
+                        marginBottom: 1.25rem
+                    p2brCaption:
+                      type: div
+                      css:
+                        zIndex: 3
+                        display: flex
+                        flexDirection: row
+                        flexWrap: wrap
+                        justifyContent: center
+                        marginTop: 0.5rem
+                      children:
+                        caption1:
+                          type: text
+                          css:
+                            fontWeight: bolder
+                            fontSize: 110%
+                        caption2:
+                          type: div
+                          css:
+                            width: 100%
+                            display: flex
+                            flexDirection: row
+                            flexWrap: wrap
+                            justifyContent: center
+                            alignItems: center
+                            gap: 0.5rem
+                          children:
+                            bigCaption:
+                              type: text
+                              css:
+                                
+                                fontWeight: bolder
+                                fontSize: 350%
+                            heart:
+                              type: text
+                              css:
+                                fontWeight: bolder
+                                fontSize: 4rem
+                                color: red
+                        caption3:
+                          type: text
+                          css:
+                            fontWeight: bolder
+                            fontSize: 110%
+                            textAlign: center
+                    p2brText2:
+                      type: text
+                      css:
+                        zIndex: 3
+                        textAlign: Justify
+                        lineHeight: "1.2"
+                        fontSize: 17.5px
+                        fontFamily: calibri
+                        color: '#181715'
+                        display: block
+                    bottomrighttext2:
+                      type: text
+                      css:
+                        display: block
+                        zIndex: 3
+                        textAlign: right
+                        lineHeight: '1'
+                        fontSize: 0.9rem
+                        fontFamily: calibri
+                        color: black  
+        page2Footer:
+          type: div
+          css:
+            display: flex
+            flexDirection: row
+            alignItems: center
+            justifyContent: center
+            gap: 0.2rem
+          children:    
+            footerText:
+              type: text
+              css:
+                zIndex: 3
+                alignItems: center
+                justifyContent: center
+                display: flex
+                width: 51rem
+                height: 2.4rem
+                lineHeight: '1'
+                fontSize: 1.375rem
+                fontFamily: times-new-roman
+                color: '#eff0f2'
+                backgroundColor: '#063d71'  
+                textAlign: center
+    
+    page3:
+      type: div
+      className: page
+      css:
+        position: relative
+        left: 0rem
+        top: 0rem
+        minHeight: 11in
+        height: auto 
+        margin: 0
+        padding: 0
+        display: flex
+        flexDirection: column
+        justifyContent: spacebetween
+      children:
+        page3Header:
+          type: div
+          css:
+            marginLeft: 20px
+            marginRight: 20px
+            zIndex: 3
+            display: flex
+            flexDirection: row
+            alignItems: center
+            justifyContent: space-between
+            paddingBottom: 0.5rem
+            paddingTop: 0.5rem
+            flexWrap: wrap
+          children:
+            page3HeaderLeft:
+              type: div
+              css:
+                flex: 1 1 90%
+                display: flex
+                flexDirection: column
+                justifyContent: space-between
+                alignItems: center
+              children:  
+                sec1line3:
+                  type: text
+                  css:
+                    color: '#cd0f13'
+                    textAlign: center
+                    height: auto
+                    fontFamily: 'times-new-roman-bold'
+                    fontSize: 2.38rem
+                    zIndex: 6  
+            page3HeaderRight:
+              type: div
+              css:
+                flex: 1 1 0.5in
+                display: flex
+                flexDirection: column
+                justifyContent: space-between
+                alignItems: center
+              children:
+                heart:
+                  type: text
+                  css:
+                    zIndex: 3
+                    width: 3.5rem
+                    height: auto
+                    lineHeight: '1'
+                    fontSize: 2rem
+                    fontFamily: arialBoldItalic
+                    color: black
+                    background: none
+                    transformOrigin: 9.8 3.5
+            page3HeaderLine2:
+              type: text
+              css:
+                flex: 1 1 100%
+                display: flex
+                flexDirection: column
+                justifyContent: center
+                alignItems: center
+                textAlign: center
+                color: darkgreen
+                fontSize: 1.5rem
+        page3Body:
+          type: div
+          css:
+            marginLeft: 20px
+            marginRight: 20px
+            height: auto 
+            display: flex
+            flexDirection: row
+            justifyContent: space-around
+            padding: 0.5rem
+            gap: 1rem
+            flexWrap: wrap
+          children:   
+            page3BodyLeft:
+              type: div
+              css:
+                flex: 1 1 3.5in
+                zIndex: 3
+                display: flex
+                flexDirection: column
+                gap: 1.5rem
+              children:
+                leftSec1Text:
+                  type: text
+                  css:
+                    textAlign: Justify
+                    lineHeight: "1.1"
+                    fontSize: 17.5px
+                    fontFamily: calibri
+                    color: black
+                    height: auto
+                lefttextbox:
+                  type: text
+                  css:
+                    height: auto
+                    backgroundColor: darkgreen      
+                    textAlign: center
+                    padding: 1rem
+                    borderRadius: 1.6rem
+                    lineHeight: '1'
+                    fontSize: 17.5px
+                    fontFamily: mvboli
+                    color: '#eff0f2'
+                lefttext2:
+                  type: text
+                  css:
+                    zIndex: 3
+                    textAlign: center
+                    lineHeight: '1.3'
+                    fontSize: 1.6rem
+                    fontFamily: times-new-roman-bold
+                    color: '#cd0f13'
+                leftSec2TextADJ:
+                  type: text
+                  css:
+                    textAlign: Justify
+                    lineHeight: "1.1"
+                    fontSize: 17.5px
+                    fontFamily: calibri
+                    color: black
+                    height: auto
+
+            page3BodyRight:      
+              type: div
+              css:
+                flex: 1 1 3.5in
+                display: flex
+                flexDirection: column
+                gap: 1rem 
+              children: 
+                p3brText:
+                  type: text
+                  css:
+                    zIndex: 3
+                    textAlign: Justify
+                    lineHeight: "1.1"
+                    fontSize: 17.5px
+                    fontFamily: calibri
+                    color: black
+                leftfooter:
+                  type: text
+                  css:
+                    textAlign: Justify
+                    lineHeight: "1.1"
+                    fontSize: 17.5px
+                    fontFamily: calibri
+                    color: black
+                    height: auto
+                image15:
+                  type: img
+                  css:
+                    width: 13.5rem
+                    height: 4.375rem
+                    backgroundRepeat: no-repeat
+                    backgroundSize: cover
+                    zIndex: 2 
+                leftSec4Header:
+                  type: text
+                  css:
+                    textAlign: left
+                    height: auto
+                    lineHeight: '1'
+                    fontSize: 22px
+                    fontFamily: times-new-roman-bold
+                    color: '#cd0f13'  
+        ButtomImages:
+          type: div
+          css:
+            marginTop: 15px
+            marginBottom: 1px
+            marginLeft: 0px
+            marginRight: 0px
+            zIndex: 3
+            display: flex
+            flexDirection: row
+            flexWrap: wrap
+            justifyContent: center
+            width: 100%
+            paddingBottom: 0.5rem
+            paddingTop: 0.5rem 
+          children: 
+            image11:
+              type: img
+              css:
+                width: 1.9in
+                height: 7.5rem
+                backgroundRepeat: no-repeat
+                backgroundSize: cover
+                transformOrigin: 9.8 3.5
+                transform: rotate(8deg)
+                # border: 0.3rem solid red
+                border: 0.4rem solid lightcyan
+                boxShadow: "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px"
+                borderRadius: 0.25rem
+                zIndex: 2
+            image12:
+              type: img
+              css:
+                width: 1.9in
+                height: 7.5rem
+                backgroundRepeat: no-repeat
+                backgroundSize: cover
+                transformOrigin: 9.8 3.5
+                transform: rotate(-8deg)
+                # border: 0.3rem solid yellow
+                border: 0.4rem solid honeydew
+                boxShadow: "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px"
+                borderRadius: 0.25rem
+                zIndex: 2
+            image13:
+              type: img
+              css:
+                width: 1.9in
+                height: 7.5rem
+                backgroundRepeat: no-repeat
+                backgroundSize: cover
+                transformOrigin: 9.8 3.5
+                transform: rotate(8deg)
+                # border: 0.3rem solid green
+                border: 0.4rem solid lightcyan
+                boxShadow: "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px"
+                borderRadius: 0.25rem
+                zIndex: 2
+            image16:
+              type: img
+              css:
+                width: 1.9in
+                height: 7.5rem
+                backgroundRepeat: no-repeat
+                backgroundSize: cover
+                transformOrigin: 9.8 3.5
+                transform: rotate(-8deg)
+                # border: 0.3rem solid blue
+                border: 0.4rem solid honeydew
+                boxShadow: "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px"
+                borderRadius: 0.25rem
+                zIndex: 2
+        page3Footer:
+          type: div
+          css:
+            display: flex
+            flexDirection: row
+            alignItems: center
+            justifyContent: center
+            gap: 0.2rem
+          children:    
+            footerText:
+              type: text
+              css:
+                zIndex: 3
+                alignItems: center
+                justifyContent: center
+                display: flex
+                width: 51rem
+                height: 2.4rem
+                fontSize: 1.25rem
+                fontFamily: times-new-roman
+                color: '#eff0f2'
+                float: none
+                backgroundColor: '#063d71'
+                textAlign: center
+    
+    page4:   
+      type: div
+      className: page
+      css:
+        position: relative
+        left: 0rem
+        top: 0rem
+        minHeight: 11in
+        height: auto
+        margin: 0
+        padding: 0
+        display: flex
+        flexDirection: column
+        justifyContent: space-between
+      children: 
+        page4Body:
+          type: div
+          css:
+            height: auto
+            display: flex
+            flexDirection: row
+            justifyContent: center
+            gap: 0.5rem
+            flexWrap: wrap
+            flexGrow: 1
+          children:  
+            page4BodyLeft:
+              type: div
+              className: page4BodyLeft
+              css:
+                flex: 1 1 5.2in
+                display: flex
+                justifyContent: center
+                flexDirection: column
+                alignItems: center
+                backgroundColor: '#bc5a01'
+                gap: 2.25rem
+              children:      
+                leftSec5Text:
+                  type: text
+                  css:
+                    textAlign: center
+                    lineHeight: "1.1"
+                    marginLeft: 20px
+                    marginRight: 20px
+                    marginTop: 15px
+                    marginBottom: 1px
+                    fontSize: 1.3rem
+                    fontFamily: ebrimabd
+                    color: '#ffffff'
+                    padding: 0.2rem
+                    borderRadius: 0.3rem
+                    backgroundColor: '#00bc54'
+                leftSec1Header:
+                  type: text
+                  css:
+                    textAlign: justify
+                    lineHeight: '1'
+                    fontSize: 1rem
+                    marginLeft: 20px
+                    marginRight: 20px
+                    fontFamily: calibri
+                    color: '#ffffff'
+                    marginTop: 15px
+                    marginBottom: 1px
+                leftSec1Text:
+                  type: text
+                  css:
+                    zIndex: 3
+                    textAlign: center
+                    lineHeight: "1.1"
+                    marginLeft: 20px
+                    marginRight: 20px
+                    marginTop: 15px
+                    marginBottom: 1px
+                    fontSize: 1.3rem
+                    fontFamily: ebrimabd
+                    color: '#ffffff'
+                    padding: 0.2rem
+                    borderRadius: 0.3rem
+                    backgroundColor: '#00bc54'
+                listleftSec1:
+                  type: text
+                  css:
+                    fontSize: 1rem
+                    fontFamily: calibri
+                    color: '#ffffff'
+                    marginLeft: 20px
+                    marginRight: 20px
+                    marginTop: 15px
+                    marginBottom: 1px
+                    zIndex: 3
+            page4BodyRight:      
+              type: div
+              css:
+                flex: 1 1 2.5in
+                display: flex
+                flexDirection: column 
+                justifyContent: space-between
+                alignItems: center
+              children:      
+                rightSec:
+                  type: div
+                  css:
+                    zIndex: 3
+                    paddingTop: 0.05in
+                    paddingBottom: 0.05in
+                    marginTop: 0.063rem
+                    marginBottom: 0.063rem
+                    marginLeft: 0.063rem
+                    marginRight: 0.063rem
+                    display: flex
+                    flexDirection: column
+                    alignItems: center
+                  children:      
+                    image1:
+                      type: img
+                      css:
+                        width: 12.5rem
+                        height: 12.5rem
+                        backgroundRepeat: no-repeat
+                        backgroundSize: cover
+                        marginBottom: 20px
+                        zIndex: 2
+                        borderRadius: 0.3rem
+                    image3:
+                      type: img
+                      css:
+                        maxWidth: 100%
+                        width: 13.75rem
+                        height: 6.56rem
+                        marginBottom: 20px
+                        backgroundRepeat: no-repeat
+                        backgroundSize: cover
+                        zIndex: 2 
+                    righttextheader:
+                      type: text
+                      css:
+                        zIndex: 3
+                        textAlign: center
+                        marginBottom: 20px
+                        lineHeight: '1'
+                        fontSize: 1.6rem
+                        fontFamily: times-new-roman-bold
+                        color: '#063d71'
+                    righttext2:
+                      type: text
+                      css:
+                        zIndex: 3
+                        textAlign: justify
+                        lineHeight: '1.3'
+                        fontSize: 1.1rem
+                        fontFamily: times-new-roman
+                        color: '#cd0f13'
+        rectangle3:
+          type: div
+          css:
+            backgroundColor: '#ffe48d'
+            height: auto
+            display: flex
+            flexDirection: column
+            justifyContent: center
+            alignItems: center
+            gap: 0.5rem
+            padding: 0.5rem
+            zindex: 3
+          children:
+            rect3Header:
+              type: div
+              css:
+                display: flex
+                flexDirection: row
+                flexWrap: wrap
+                justifyContent: center
+                gap: 0.3rem
+              children:
+                leftSec4Header:
+                  type: text
+                  css:
+                    zIndex: 3
+                    textAlign: center
+                    lineHeight: '1'
+                    fontSize: 1.68rem
+                    fontFamily: Inkfree
+                    color: '#cd0f13'
+                heartOfHands:
+                  type: img
+                  className: heartOfHands
+                  css:
+                    left: 1.3in
+                    top: 6.3in
+                    maxWidth: 100%
+                    width: 7.5rem
+                    height: 6.87rem
+                    backgroundRepeat: no-repeat
+                    backgroundSize: cover
+                    zIndex: 2       
+                    marginTop: -4.5rem        
+            leftSec2Text:
+              type: text
+              css:
+                zIndex: 3
+                textAlign: Justify
+                lineHeight: "1.4"
+                fontSize: 0.8rem
+                fontFamily: mvboli
+                color: '#c10603'
+            image5:
+              type: img
+              css:
+                width: 13.2rem
+                height: 3.75rem
+                backgroundRepeat: no-repeat
+                backgroundSize: cover
+                zIndex: 2  
+                alignSelf: flex-end
+                marginBottom: 0.5rem

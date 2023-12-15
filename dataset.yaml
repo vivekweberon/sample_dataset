@@ -1,0 +1,233 @@
+sample_web:
+  template: "templateInput/sample"
+  userdata: "userInput/sample_web"
+  dynamicDataYamlFile: "userInput/sample_web/userData/dynamicData.yaml"
+  medium : "WEB"
+  ogTitle: ""
+  ogDescription: ""
+  ogImage: ""
+
+sample_print:
+  template: "templateInput/sample"
+  userdata: "userInput/sample_print"
+  dynamicDataYamlFile: "userInput/sample_print/userData/dynamicData.yaml"
+  medium : "PRINT"
+  ogTitle: ""
+  ogDescription: ""
+  ogImage: ""
+
+homewardbound_202301:
+  template: "templateInput/hb_generic"
+  userdata: "userInput/2023-hb/hb-202301-web"
+  dynamicDataYamlFile: "userInput/2023-hb/hb-202301-web/userData/dynamicData.yaml"
+  medium : "WEB"
+  ogTitle: "Praveen Kumar's Homeward Bound January 2023"
+  ogDescription: "Real Estate News"
+  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"
+
+homewardbound_202301-print:
+  template: "templateInput/hb_generic"
+  userdata: "userInput/2023-hb/hb-202301-print"
+  dynamicDataYamlFile: "userInput/2023-hb/hb-202301-print/userData/dynamicData.yaml"
+  medium : "PRINT"
+  ogTitle: "Praveen Kumar's Homeward Bound January 2023"
+  ogDescription: "Real Estate News"
+  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"
+
+homewardbound_202302:
+  template: "templateInput/hb_generic"
+  userdata: "userInput/2023-hb/hb-202302-web"
+  dynamicDataYamlFile: "userInput/2023-hb/hb-202302-web/userData/dynamicData.yaml"
+  medium : "WEB"
+  ogTitle: "Praveen Kumar's Homeward Bound February 2023"
+  ogDescription: "Real Estate News"
+  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"
+
+homewardbound_202302-print:
+  template: "templateInput/hb_generic"
+  userdata: "userInput/2023-hb/hb-202302-print"
+  dynamicDataYamlFile: "userInput/2023-hb/hb-202302-print/userData/dynamicData.yaml"
+  medium : "PRINT"
+  ogTitle: "Praveen Kumar's Homeward Bound February 2023"
+  ogDescription: "Real Estate News"
+  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"
+
+homewardbound_202303:
+  template: "templateInput/hb_generic"
+  userdata: "userInput/2023-hb/hb-202303-web"
+  dynamicDataYamlFile: "userInput/2023-hb/hb-202303-web/userData/dynamicData.yaml"
+  medium : "WEB"
+  ogTitle: "Praveen Kumar's Homeward Bound March 2023"
+  ogDescription: "Real Estate News"
+  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"
+
+homewardbound_202303-print:
+  template: "templateInput/hb_generic"
+  userdata: "userInput/2023-hb/hb-202303-print"
+  dynamicDataYamlFile: "userInput/2023-hb/hb-202303-print/userData/dynamicData.yaml"
+  medium : "PRINT"
+  ogTitle: "Praveen Kumar's Homeward Bound March 2023"
+  ogDescription: "Real Estate News"
+  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"
+
+homewardbound_202304:
+  template: "templateInput/hb_generic"
+  userdata: "userInput/2023-hb/hb-202304-web"
+  dynamicDataYamlFile: "userInput/2023-hb/hb-202304-web/userData/dynamicData.yaml"
+  medium : "WEB"
+  ogTitle: "Praveen Kumar's Homeward Bound April 2023"
+  ogDescription: "Real Estate News"
+  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"
+
+homewardbound_202304-print:
+  template: "templateInput/hb_generic"
+  userdata: "userInput/2023-hb/hb-202304-print"
+  dynamicDataYamlFile: "userInput/2023-hb/hb-202304-print/userData/dynamicData.yaml"
+  medium : "PRINT"
+  ogTitle: "Praveen Kumar's Homeward Bound April 2023"
+  ogDescription: "Real Estate News"
+  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"
+
+homewardbound_202305:
+  template: "templateInput/hb_generic"
+  userdata: "userInput/2023-hb/hb-202305-web"
+  dynamicDataYamlFile: "userInput/2023-hb/hb-202305-web/userData/dynamicData.yaml"
+  medium : "WEB"
+  ogTitle: "Praveen Kumar's Homeward Bound May 2023"
+  ogDescription: "Real Estate News"
+  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"
+
+homewardbound_202305-print:
+  template: "templateInput/hb_generic"
+  userdata: "userInput/2023-hb/hb-202305-print"
+  dynamicDataYamlFile: "userInput/2023-hb/hb-202305-print/userData/dynamicData.yaml"
+  medium : "PRINT"
+  ogTitle: "Praveen Kumar's Homeward Bound May 2023"
+  ogDescription: "Real Estate News"
+  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"
+
+homewardbound_202306:
+  template: "templateInput/hb_generic"
+  userdata: "userInput/2023-hb/hb-202306-web"
+  dynamicDataYamlFile: "userInput/2023-hb/hb-202306-web/userData/dynamicData.yaml"
+  medium : "WEB"
+  ogTitle: "Praveen Kumar's Homeward Bound June 2023"
+  ogDescription: "Real Estate News"
+  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"
+
+homewardbound_202306-print:
+  template: "templateInput/hb_generic"
+  userdata: "userInput/2023-hb/hb-202306-print"
+  dynamicDataYamlFile: "userInput/2023-hb/hb-202306-print/userData/dynamicData.yaml"
+  medium : "PRINT"
+  ogTitle: "Praveen Kumar's Homeward Bound June 2023"
+  ogDescription: "Real Estate News"
+  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"
+
+homewardbound_202307:
+  template: "templateInput/hb_generic"
+  userdata: "userInput/2023-hb/hb-202307-web"
+  dynamicDataYamlFile: "userInput/2023-hb/hb-202307-web/userData/dynamicData.yaml"
+  medium : "WEB"
+  ogTitle: "Praveen Kumar's Homeward Bound July 2023"
+  ogDescription: "Real Estate News"
+  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"
+
+homewardbound_202307-print:
+  template: "templateInput/hb_generic"
+  userdata: "userInput/2023-hb/hb-202307-print"
+  dynamicDataYamlFile: "userInput/2023-hb/hb-202307-print/userData/dynamicData.yaml"
+  medium : "PRINT"
+  ogTitle: "Praveen Kumar's Homeward Bound July 2023"
+  ogDescription: "Real Estate News"
+  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"
+
+homewardbound_202308:
+  template: "templateInput/hb_generic"
+  userdata: "userInput/2023-hb/hb-202308-web"
+  dynamicDataYamlFile: "userInput/2023-hb/hb-202308-web/userData/dynamicData.yaml"
+  medium : "WEB"
+  ogTitle: "Praveen Kumar's Homeward Bound August 2023"
+  ogDescription: "Real Estate News"
+  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"
+
+homewardbound_202308-print:
+  template: "templateInput/hb_generic"
+  userdata: "userInput/2023-hb/hb-202308-print"
+  dynamicDataYamlFile: "userInput/2023-hb/hb-202308-print/userData/dynamicData.yaml"
+  medium : "PRINT"
+  ogTitle: "Praveen Kumar's Homeward Bound August 2023"
+  ogDescription: "Real Estate News"
+  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"
+
+homewardbound_202309:
+  template: "templateInput/hb_generic"
+  userdata: "userInput/2023-hb/hb-202309-web"
+  dynamicDataYamlFile: "userInput/2023-hb/hb-202309-web/userData/dynamicData.yaml"
+  medium : "WEB"
+  ogTitle: "Praveen Kumar's Homeward Bound September 2023"
+  ogDescription: "Real Estate News"
+  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"
+
+homewardbound_202309-print:
+  template: "templateInput/hb_generic"
+  userdata: "userInput/2023-hb/hb-202309-print"
+  dynamicDataYamlFile: "userInput/2023-hb/hb-202309-print/userData/dynamicData.yaml"
+  medium : "PRINT"
+  ogTitle: "Praveen Kumar's Homeward Bound September 2023"
+  ogDescription: "Real Estate News"
+  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"
+
+homewardbound_202310:
+  template: "templateInput/hb_generic"
+  userdata: "userInput/2023-hb/hb-202310-web"
+  dynamicDataYamlFile: "userInput/2023-hb/hb-202310-web/userData/dynamicData.yaml"
+  medium : "WEB"
+  ogTitle: "Praveen Kumar's Homeward Bound October 2023"
+  ogDescription: "Real Estate News"
+  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"
+
+homewardbound_202310-print:
+  template: "templateInput/hb_generic"
+  userdata: "userInput/2023-hb/hb-202310-print"
+  dynamicDataYamlFile: "userInput/2023-hb/hb-202310-print/userData/dynamicData.yaml"
+  medium : "PRINT"
+  ogTitle: "Praveen Kumar's Homeward Bound October 2023"
+  ogDescription: "Real Estate News"
+  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"
+
+homewardbound_202311:
+  template: "templateInput/hb_generic"
+  userdata: "userInput/2023-hb/hb-202311-web"
+  dynamicDataYamlFile: "userInput/2023-hb/hb-202311-web/userData/dynamicData.yaml"
+  medium : "WEB"
+  ogTitle: "Praveen Kumar's Homeward Bound November 2023"
+  ogDescription: "Real Estate News"
+  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"
+
+homewardbound_202311-print:
+  template: "templateInput/hb_generic"
+  userdata: "userInput/2023-hb/hb-202311-print"
+  dynamicDataYamlFile: "userInput/2023-hb/hb-202311-print/userData/dynamicData.yaml"
+  medium : "PRINT"
+  ogTitle: "Praveen Kumar's Homeward Bound November 2023"
+  ogDescription: "Real Estate News"
+  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"
+
+homewardbound_202312:
+  template: "templateInput/hb_generic"
+  userdata: "userInput/2023-hb/hb-202312-web"
+  dynamicDataYamlFile: "userInput/2023-hb/hb-202312-web/userData/dynamicData.yaml"
+  medium : "WEB"
+  ogTitle: "Praveen Kumar's Homeward Bound December 2023"
+  ogDescription: "Real Estate News"
+  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"
+
+homewardbound_202312-print:
+  template: "templateInput/hb_generic"
+  userdata: "userInput/2023-hb/hb-202312-print"
+  dynamicDataYamlFile: "userInput/2023-hb/hb-202312-print/userData/dynamicData.yaml"
+  medium : "PRINT"
+  ogTitle: "Praveen Kumar's Homeward Bound December 2023"
+  ogDescription: "Real Estate News"
+  ogImage: "${targetdomain}/images/og/marketwatch_banner.jpg"

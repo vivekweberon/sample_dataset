@@ -1,0 +1,15 @@
+brand_person_first_name : Praveen
+brand_person_last_name : Kumar
+brand_mobile : 925‑452‑7483
+brand_email : praveen@weberealty.com
+brand_address_city: San Ramon
+brand_address_street: "12935 Alcosta Blvd. #3681"
+brand_address_state: CA
+brand_address_zip : "94583"
+brand_ca_bre_lic_number: "01928307/NMLS: 2067059"
+brand_company_name: WebERealty
+brand_tel: +19254527483
+hb_month: "January"
+hb_year: "2023"
+#define all variables in lower case
+#{{ppdc: hb_month}} {{ppdc: hb_year}}
