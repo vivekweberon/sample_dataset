@@ -62,13 +62,13 @@ p {
   .page{
       width: 100%;
   }
-  .tabloidParent{
+  .a4Parent{
     width: 100%;
   }  
 }
 
 @media print {
-  .tabloidParent{
+  .a4Parent{
       width: 17in;
       justify-content: start;
   }
