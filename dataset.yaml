@@ -1,5 +1,5 @@
 sample_web:
-  template: "templateInput/sample_dataset/templateData"
+  template: "templateInput/sample_dataset"
   userdata: "userInput/sample_data/sample_web"
   dynamicDataYamlFile: "userInput/sample_data/sample_web/userData/dynamicData.yaml"
   medium : "WEB"
@@ -8,7 +8,7 @@ sample_web:
   ogImage: ""
 
 sample_print:
-  template: "templateInput/sample_dataset/templateData"
+  template: "templateInput/sample_dataset"
   userdata: "userInput/sample_data/sample_print"
   dynamicDataYamlFile: "userInput/sample_data/sample_print/userData/dynamicData.yaml"
   medium : "WEB"
